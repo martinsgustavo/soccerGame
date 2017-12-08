@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         ball.layer.cornerRadius = 12.5
         loadUserDefaults()
+        scoreBest.text = String(score_best)
     }
     //:
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
