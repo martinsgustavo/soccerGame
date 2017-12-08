@@ -12,6 +12,48 @@
 		B832628F1FD6F3AA000A5490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B832628D1FD6F3AA000A5490 /* Main.storyboard */; };
 		B83262911FD6F3AA000A5490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83262901FD6F3AA000A5490 /* Assets.xcassets */; };
 		B83262941FD6F3AA000A5490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83262921FD6F3AA000A5490 /* LaunchScreen.storyboard */; };
+		B832629D1FD6F643000A5490 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B832629C1FD6F643000A5490 /* ball.png */; };
+		B84E947B1FD98CEE00A72DDA /* goalkeeperIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B84E947A1FD98CED00A72DDA /* goalkeeperIcon.png */; };
+		B84E947D1FD98ED000A72DDA /* soccerPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = B84E947C1FD98ECF00A72DDA /* soccerPlayer.png */; };
+		B84E947F1FD996B600A72DDA /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E947E1FD996B600A72DDA /* UserDefaultsManager.swift */; };
+		B84E94811FD9A43300A72DDA /* finishedGame.png in Resources */ = {isa = PBXBuildFile; fileRef = B84E94801FD9A43200A72DDA /* finishedGame.png */; };
+		B84E94831FD9A6D200A72DDA /* btnTryAgain.png in Resources */ = {isa = PBXBuildFile; fileRef = B84E94821FD9A6D100A72DDA /* btnTryAgain.png */; };
+		B891F13D1FD792EF0070B256 /* soccerField.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F13C1FD792EE0070B256 /* soccerField.png */; };
+		B891F13F1FD796C50070B256 /* goalField.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F13E1FD796C50070B256 /* goalField.png */; };
+		B891F1411FD79F600070B256 /* bkgSoccer.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1401FD79F5F0070B256 /* bkgSoccer.png */; };
+		B891F1431FD7A86C0070B256 /* scoreSoccer.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1421FD7A86C0070B256 /* scoreSoccer.png */; };
+		B891F1451FD7AB5A0070B256 /* btnGo.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1441FD7AB5A0070B256 /* btnGo.png */; };
+		B891F1491FD7AFB10070B256 /* logoSoccer.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1481FD7AFB10070B256 /* logoSoccer.png */; };
+		B891F1691FD7B0A90070B256 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F14B1FD7B0960070B256 /* Icon-72.png */; };
+		B891F16A1FD7B0A90070B256 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F14C1FD7B0970070B256 /* Icon-29.png */; };
+		B891F16B1FD7B0A90070B256 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F14D1FD7B0970070B256 /* Icon-144.png */; };
+		B891F16C1FD7B0A90070B256 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F14E1FD7B0980070B256 /* Icon-167.png */; };
+		B891F16D1FD7B0A90070B256 /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F14F1FD7B0990070B256 /* Icon-32.png */; };
+		B891F16E1FD7B0A90070B256 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1501FD7B0990070B256 /* Icon-100.png */; };
+		B891F16F1FD7B0A90070B256 /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1511FD7B09A0070B256 /* Icon-87.png */; };
+		B891F1701FD7B0A90070B256 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1521FD7B09A0070B256 /* Icon-16.png */; };
+		B891F1711FD7B0A90070B256 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1531FD7B09B0070B256 /* Icon-50.png */; };
+		B891F1721FD7B0A90070B256 /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1541FD7B09B0070B256 /* Icon-55.png */; };
+		B891F1731FD7B0A90070B256 /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1551FD7B09C0070B256 /* Icon-64.png */; };
+		B891F1741FD7B0A90070B256 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1561FD7B09D0070B256 /* Icon-80.png */; };
+		B891F1751FD7B0A90070B256 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1571FD7B09E0070B256 /* Icon-1024.png */; };
+		B891F1761FD7B0A90070B256 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1581FD7B09E0070B256 /* Icon-512.png */; };
+		B891F1771FD7B0A90070B256 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1591FD7B09F0070B256 /* Icon-180.png */; };
+		B891F1781FD7B0A90070B256 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15A1FD7B09F0070B256 /* Icon-114.png */; };
+		B891F1791FD7B0A90070B256 /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15B1FD7B0A00070B256 /* Icon-88.png */; };
+		B891F17A1FD7B0A90070B256 /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15C1FD7B0A10070B256 /* Icon-172.png */; };
+		B891F17B1FD7B0A90070B256 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15D1FD7B0A10070B256 /* Icon-128.png */; };
+		B891F17C1FD7B0A90070B256 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15E1FD7B0A20070B256 /* Icon-60.png */; };
+		B891F17D1FD7B0A90070B256 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F15F1FD7B0A20070B256 /* Icon-120.png */; };
+		B891F17E1FD7B0A90070B256 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1601FD7B0A30070B256 /* Icon-152.png */; };
+		B891F17F1FD7B0A90070B256 /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1611FD7B0A40070B256 /* Icon-196.png */; };
+		B891F1801FD7B0A90070B256 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1621FD7B0A50070B256 /* Icon-40.png */; };
+		B891F1811FD7B0A90070B256 /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1631FD7B0A50070B256 /* Icon-20.png */; };
+		B891F1821FD7B0A90070B256 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1641FD7B0A60070B256 /* Icon-57.png */; };
+		B891F1831FD7B0A90070B256 /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1651FD7B0A70070B256 /* Icon-48.png */; };
+		B891F1841FD7B0A90070B256 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1661FD7B0A70070B256 /* Icon-76.png */; };
+		B891F1851FD7B0A90070B256 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1671FD7B0A80070B256 /* Icon-256.png */; };
+		B891F1861FD7B0A90070B256 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = B891F1681FD7B0A90070B256 /* Icon-58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +64,48 @@
 		B83262901FD6F3AA000A5490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83262931FD6F3AA000A5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83262951FD6F3AA000A5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B832629C1FD6F643000A5490 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = football/working/ball.png; sourceTree = SOURCE_ROOT; };
+		B84E947A1FD98CED00A72DDA /* goalkeeperIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goalkeeperIcon.png; path = football/working/goalkeeperIcon.png; sourceTree = SOURCE_ROOT; };
+		B84E947C1FD98ECF00A72DDA /* soccerPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soccerPlayer.png; path = football/working/soccerPlayer.png; sourceTree = SOURCE_ROOT; };
+		B84E947E1FD996B600A72DDA /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		B84E94801FD9A43200A72DDA /* finishedGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = finishedGame.png; path = football/images/finishedGame.png; sourceTree = SOURCE_ROOT; };
+		B84E94821FD9A6D100A72DDA /* btnTryAgain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnTryAgain.png; path = football/working/btnTryAgain.png; sourceTree = SOURCE_ROOT; };
+		B891F13C1FD792EE0070B256 /* soccerField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soccerField.png; path = football/working/soccerField.png; sourceTree = SOURCE_ROOT; };
+		B891F13E1FD796C50070B256 /* goalField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goalField.png; path = football/working/goalField.png; sourceTree = SOURCE_ROOT; };
+		B891F1401FD79F5F0070B256 /* bkgSoccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bkgSoccer.png; path = football/working/bkgSoccer.png; sourceTree = SOURCE_ROOT; };
+		B891F1421FD7A86C0070B256 /* scoreSoccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSoccer.png; path = football/working/scoreSoccer.png; sourceTree = SOURCE_ROOT; };
+		B891F1441FD7AB5A0070B256 /* btnGo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnGo.png; path = football/working/btnGo.png; sourceTree = SOURCE_ROOT; };
+		B891F1481FD7AFB10070B256 /* logoSoccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoSoccer.png; path = football/working/logoSoccer.png; sourceTree = SOURCE_ROOT; };
+		B891F14B1FD7B0960070B256 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "football/working/icon/Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		B891F14C1FD7B0970070B256 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "football/working/icon/Icon-29.png"; sourceTree = SOURCE_ROOT; };
+		B891F14D1FD7B0970070B256 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "football/working/icon/Icon-144.png"; sourceTree = SOURCE_ROOT; };
+		B891F14E1FD7B0980070B256 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-167.png"; path = "football/working/icon/Icon-167.png"; sourceTree = SOURCE_ROOT; };
+		B891F14F1FD7B0990070B256 /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-32.png"; path = "football/working/icon/Icon-32.png"; sourceTree = SOURCE_ROOT; };
+		B891F1501FD7B0990070B256 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-100.png"; path = "football/working/icon/Icon-100.png"; sourceTree = SOURCE_ROOT; };
+		B891F1511FD7B09A0070B256 /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-87.png"; path = "football/working/icon/Icon-87.png"; sourceTree = SOURCE_ROOT; };
+		B891F1521FD7B09A0070B256 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-16.png"; path = "football/working/icon/Icon-16.png"; sourceTree = SOURCE_ROOT; };
+		B891F1531FD7B09B0070B256 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-50.png"; path = "football/working/icon/Icon-50.png"; sourceTree = SOURCE_ROOT; };
+		B891F1541FD7B09B0070B256 /* Icon-55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-55.png"; path = "football/working/icon/Icon-55.png"; sourceTree = SOURCE_ROOT; };
+		B891F1551FD7B09C0070B256 /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-64.png"; path = "football/working/icon/Icon-64.png"; sourceTree = SOURCE_ROOT; };
+		B891F1561FD7B09D0070B256 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-80.png"; path = "football/working/icon/Icon-80.png"; sourceTree = SOURCE_ROOT; };
+		B891F1571FD7B09E0070B256 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "football/working/icon/Icon-1024.png"; sourceTree = SOURCE_ROOT; };
+		B891F1581FD7B09E0070B256 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512.png"; path = "football/working/icon/Icon-512.png"; sourceTree = SOURCE_ROOT; };
+		B891F1591FD7B09F0070B256 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-180.png"; path = "football/working/icon/Icon-180.png"; sourceTree = SOURCE_ROOT; };
+		B891F15A1FD7B09F0070B256 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "football/working/icon/Icon-114.png"; sourceTree = SOURCE_ROOT; };
+		B891F15B1FD7B0A00070B256 /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-88.png"; path = "football/working/icon/Icon-88.png"; sourceTree = SOURCE_ROOT; };
+		B891F15C1FD7B0A10070B256 /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-172.png"; path = "football/working/icon/Icon-172.png"; sourceTree = SOURCE_ROOT; };
+		B891F15D1FD7B0A10070B256 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-128.png"; path = "football/working/icon/Icon-128.png"; sourceTree = SOURCE_ROOT; };
+		B891F15E1FD7B0A20070B256 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "football/working/icon/Icon-60.png"; sourceTree = SOURCE_ROOT; };
+		B891F15F1FD7B0A20070B256 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "football/working/icon/Icon-120.png"; sourceTree = SOURCE_ROOT; };
+		B891F1601FD7B0A30070B256 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-152.png"; path = "football/working/icon/Icon-152.png"; sourceTree = SOURCE_ROOT; };
+		B891F1611FD7B0A40070B256 /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-196.png"; path = "football/working/icon/Icon-196.png"; sourceTree = SOURCE_ROOT; };
+		B891F1621FD7B0A50070B256 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40.png"; path = "football/working/icon/Icon-40.png"; sourceTree = SOURCE_ROOT; };
+		B891F1631FD7B0A50070B256 /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-20.png"; path = "football/working/icon/Icon-20.png"; sourceTree = SOURCE_ROOT; };
+		B891F1641FD7B0A60070B256 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "football/working/icon/Icon-57.png"; sourceTree = SOURCE_ROOT; };
+		B891F1651FD7B0A70070B256 /* Icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-48.png"; path = "football/working/icon/Icon-48.png"; sourceTree = SOURCE_ROOT; };
+		B891F1661FD7B0A70070B256 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "football/working/icon/Icon-76.png"; sourceTree = SOURCE_ROOT; };
+		B891F1671FD7B0A80070B256 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "football/working/icon/Icon-256.png"; sourceTree = SOURCE_ROOT; };
+		B891F1681FD7B0A90070B256 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-58.png"; path = "football/working/icon/Icon-58.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +138,72 @@
 		B83262881FD6F3AA000A5490 /* football */ = {
 			isa = PBXGroup;
 			children = (
+				B832629B1FD6F633000A5490 /* images */,
 				B83262891FD6F3AA000A5490 /* AppDelegate.swift */,
 				B832628B1FD6F3AA000A5490 /* ViewController.swift */,
+				B84E947E1FD996B600A72DDA /* UserDefaultsManager.swift */,
 				B832628D1FD6F3AA000A5490 /* Main.storyboard */,
 				B83262901FD6F3AA000A5490 /* Assets.xcassets */,
 				B83262921FD6F3AA000A5490 /* LaunchScreen.storyboard */,
 				B83262951FD6F3AA000A5490 /* Info.plist */,
 			);
 			path = football;
+			sourceTree = "<group>";
+		};
+		B832629B1FD6F633000A5490 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B891F14A1FD7B0800070B256 /* icon */,
+				B84E947C1FD98ECF00A72DDA /* soccerPlayer.png */,
+				B84E94821FD9A6D100A72DDA /* btnTryAgain.png */,
+				B84E94801FD9A43200A72DDA /* finishedGame.png */,
+				B84E947A1FD98CED00A72DDA /* goalkeeperIcon.png */,
+				B891F1481FD7AFB10070B256 /* logoSoccer.png */,
+				B891F1441FD7AB5A0070B256 /* btnGo.png */,
+				B891F1421FD7A86C0070B256 /* scoreSoccer.png */,
+				B891F1401FD79F5F0070B256 /* bkgSoccer.png */,
+				B891F13E1FD796C50070B256 /* goalField.png */,
+				B891F13C1FD792EE0070B256 /* soccerField.png */,
+				B832629C1FD6F643000A5490 /* ball.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B891F14A1FD7B0800070B256 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				B891F1521FD7B09A0070B256 /* Icon-16.png */,
+				B891F1631FD7B0A50070B256 /* Icon-20.png */,
+				B891F14C1FD7B0970070B256 /* Icon-29.png */,
+				B891F14F1FD7B0990070B256 /* Icon-32.png */,
+				B891F1621FD7B0A50070B256 /* Icon-40.png */,
+				B891F1651FD7B0A70070B256 /* Icon-48.png */,
+				B891F1531FD7B09B0070B256 /* Icon-50.png */,
+				B891F1541FD7B09B0070B256 /* Icon-55.png */,
+				B891F1641FD7B0A60070B256 /* Icon-57.png */,
+				B891F1681FD7B0A90070B256 /* Icon-58.png */,
+				B891F15E1FD7B0A20070B256 /* Icon-60.png */,
+				B891F1551FD7B09C0070B256 /* Icon-64.png */,
+				B891F14B1FD7B0960070B256 /* Icon-72.png */,
+				B891F1661FD7B0A70070B256 /* Icon-76.png */,
+				B891F1561FD7B09D0070B256 /* Icon-80.png */,
+				B891F1511FD7B09A0070B256 /* Icon-87.png */,
+				B891F15B1FD7B0A00070B256 /* Icon-88.png */,
+				B891F1501FD7B0990070B256 /* Icon-100.png */,
+				B891F15A1FD7B09F0070B256 /* Icon-114.png */,
+				B891F15F1FD7B0A20070B256 /* Icon-120.png */,
+				B891F15D1FD7B0A10070B256 /* Icon-128.png */,
+				B891F14D1FD7B0970070B256 /* Icon-144.png */,
+				B891F1601FD7B0A30070B256 /* Icon-152.png */,
+				B891F14E1FD7B0980070B256 /* Icon-167.png */,
+				B891F15C1FD7B0A10070B256 /* Icon-172.png */,
+				B891F1591FD7B09F0070B256 /* Icon-180.png */,
+				B891F1611FD7B0A40070B256 /* Icon-196.png */,
+				B891F1671FD7B0A80070B256 /* Icon-256.png */,
+				B891F1581FD7B09E0070B256 /* Icon-512.png */,
+				B891F1571FD7B09E0070B256 /* Icon-1024.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +265,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84E94811FD9A43300A72DDA /* finishedGame.png in Resources */,
+				B891F1491FD7AFB10070B256 /* logoSoccer.png in Resources */,
+				B84E947D1FD98ED000A72DDA /* soccerPlayer.png in Resources */,
+				B891F1851FD7B0A90070B256 /* Icon-256.png in Resources */,
 				B83262941FD6F3AA000A5490 /* LaunchScreen.storyboard in Resources */,
+				B891F1721FD7B0A90070B256 /* Icon-55.png in Resources */,
+				B891F16F1FD7B0A90070B256 /* Icon-87.png in Resources */,
 				B83262911FD6F3AA000A5490 /* Assets.xcassets in Resources */,
+				B891F1691FD7B0A90070B256 /* Icon-72.png in Resources */,
+				B891F17B1FD7B0A90070B256 /* Icon-128.png in Resources */,
+				B891F17F1FD7B0A90070B256 /* Icon-196.png in Resources */,
+				B891F1861FD7B0A90070B256 /* Icon-58.png in Resources */,
+				B891F1821FD7B0A90070B256 /* Icon-57.png in Resources */,
+				B84E94831FD9A6D200A72DDA /* btnTryAgain.png in Resources */,
+				B891F1811FD7B0A90070B256 /* Icon-20.png in Resources */,
+				B891F1451FD7AB5A0070B256 /* btnGo.png in Resources */,
+				B891F1751FD7B0A90070B256 /* Icon-1024.png in Resources */,
+				B891F13D1FD792EF0070B256 /* soccerField.png in Resources */,
+				B891F16E1FD7B0A90070B256 /* Icon-100.png in Resources */,
+				B891F16B1FD7B0A90070B256 /* Icon-144.png in Resources */,
+				B891F17A1FD7B0A90070B256 /* Icon-172.png in Resources */,
+				B891F1831FD7B0A90070B256 /* Icon-48.png in Resources */,
+				B891F17E1FD7B0A90070B256 /* Icon-152.png in Resources */,
+				B891F1741FD7B0A90070B256 /* Icon-80.png in Resources */,
+				B891F1711FD7B0A90070B256 /* Icon-50.png in Resources */,
+				B891F1761FD7B0A90070B256 /* Icon-512.png in Resources */,
+				B891F1801FD7B0A90070B256 /* Icon-40.png in Resources */,
+				B891F1791FD7B0A90070B256 /* Icon-88.png in Resources */,
+				B891F13F1FD796C50070B256 /* goalField.png in Resources */,
+				B891F1781FD7B0A90070B256 /* Icon-114.png in Resources */,
+				B832629D1FD6F643000A5490 /* ball.png in Resources */,
+				B891F17C1FD7B0A90070B256 /* Icon-60.png in Resources */,
+				B891F1431FD7A86C0070B256 /* scoreSoccer.png in Resources */,
+				B891F1411FD79F600070B256 /* bkgSoccer.png in Resources */,
+				B891F16C1FD7B0A90070B256 /* Icon-167.png in Resources */,
 				B832628F1FD6F3AA000A5490 /* Main.storyboard in Resources */,
+				B891F1731FD7B0A90070B256 /* Icon-64.png in Resources */,
+				B891F16A1FD7B0A90070B256 /* Icon-29.png in Resources */,
+				B84E947B1FD98CEE00A72DDA /* goalkeeperIcon.png in Resources */,
+				B891F17D1FD7B0A90070B256 /* Icon-120.png in Resources */,
+				B891F16D1FD7B0A90070B256 /* Icon-32.png in Resources */,
+				B891F1841FD7B0A90070B256 /* Icon-76.png in Resources */,
+				B891F1771FD7B0A90070B256 /* Icon-180.png in Resources */,
+				B891F1701FD7B0A90070B256 /* Icon-16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +321,7 @@
 			files = (
 				B832628C1FD6F3AA000A5490 /* ViewController.swift in Sources */,
 				B832628A1FD6F3AA000A5490 /* AppDelegate.swift in Sources */,
+				B84E947F1FD996B600A72DDA /* UserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Q5JKBNU9;
 				INFOPLIST_FILE = football/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinsgustavo.football;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -289,12 +474,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27Q5JKBNU9;
 				INFOPLIST_FILE = football/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinsgustavo.football;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
